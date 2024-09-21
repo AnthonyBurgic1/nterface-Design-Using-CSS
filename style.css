@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+/** My font **/
+@font-face {
+    font-family: "yellowRabit";
+    src: url(../fonts/yellowRabit.otf);
+}
+body{
+    font-family: "yellowRabit", sans-serif;
+    background-image: url("./Images/100gigs\ drake.jpeg");
+}
+.image-container{
+    text-align: center;
+}
+.container{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+.container img{
+    vertical-align: middle;
+}
+/** my h1 tag **/
+h1{
+    color: lightgreen;
+    font-family: "yellowRabit", "poetsen One", sans-serif;
+}
+
+/** my h3 tag **/
+h3{
+    color: lightcoral;
+    font-family: "yellowRabit", "poetsen One", sans-serif;
+}
+/** My h1 and h3 tag spot **/
+h1,h3{
+    font-family: "Poetsen One", sans-serif;
+}
+/** My Paragraph area **/
+p{
+    color: lightslategrey;
+    font-size: 1.2em;
+    font-family:monospace;
+    text-decoration: none;
+}
+h1 strong{
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+p style{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.img{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: white;
+    font-family: "yellowRabit", "poetsen One", sans-serif;
+}
